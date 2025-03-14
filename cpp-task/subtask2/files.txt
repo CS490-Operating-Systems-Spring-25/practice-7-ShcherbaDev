@@ -1,0 +1,29 @@
+ubuntu@noble:~/tasks/practice-7-ShcherbaDev-main/cpp-task/subtask2$ pidof files
+3764
+
+ubuntu@noble:~/tasks/practice-7-ShcherbaDev-main/cpp-task/subtask2$ ls -l /proc/3764/fd
+total 0
+lrwx------ 1 ubuntu ubuntu 64 Mar 11 17:06 0 -> /dev/pts/3
+lrwx------ 1 ubuntu ubuntu 64 Mar 11 17:06 1 -> /dev/pts/3
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 10 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/bootloader.sh
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 11 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/task.S
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 12 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/.gitignore
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 13 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/src
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 14 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/build-cpp.sh
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 15 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/instructionSet.html
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 16 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/README.md
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 17 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/bootloader
+l-wx------ 1 ubuntu ubuntu 64 Mar 11 17:06 19 -> /home/ubuntu/.vscode-server/data/logs/20250311T164105/remoteagent.log
+lrwx------ 1 ubuntu ubuntu 64 Mar 11 17:06 2 -> /dev/pts/3
+l-wx------ 1 ubuntu ubuntu 64 Mar 11 17:06 20 -> /home/ubuntu/.vscode-server/data/logs/20250311T164105/ptyhost.log
+lrwx------ 1 ubuntu ubuntu 64 Mar 11 17:06 21 -> /dev/ptmx
+l-wx------ 1 ubuntu ubuntu 64 Mar 11 17:06 22 -> /home/ubuntu/.vscode-server/data/logs/20250311T164105/remoteTelemetry.log
+lrwx------ 1 ubuntu ubuntu 64 Mar 11 17:06 23 -> /dev/ptmx
+lrwx------ 1 ubuntu ubuntu 64 Mar 11 17:06 24 -> /dev/ptmx
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 3 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 4 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/tests
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 5 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/hw
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 6 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/task
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 7 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/task.o
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 8 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/week5
+lr-x------ 1 ubuntu ubuntu 64 Mar 11 17:06 9 -> /home/ubuntu/tasks/practice-7-ShcherbaDev-main/include

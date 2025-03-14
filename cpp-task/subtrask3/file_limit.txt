@@ -1,0 +1,9 @@
+Current file limit: `cat /proc/sys/fs/file-max`: `9223372036854775807`
+Setting file limit limit to 65535: `sudo bash -c 'echo 65535 > /proc/sys/fs/file-max'`
+
+Starting a program: `g++ file_limit.cpp -o file_limit && ./file_limit`
+
+Observations:
+- I did not find performance drops while opening a lot of files
+- After reaching 63970 files opened, the new files fail to open because of reaching a limit set earlier.
+- After reaching 63970 files opened, the `ls -l /proc/$(pidof file_limit)/fd` command crashes the terminal
